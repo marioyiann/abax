@@ -1,0 +1,12 @@
+/* ==========================================================================
+   BASE
+   ========================================================================== */
+
+body {
+  font-family: $font-stack;
+  color: $primary-color;
+  -webkit-font-smoothing: antialiased;
+   -moz-osx-font-smoothing: grayscale;
+   text-rendering: optimizelegibility;
+       -webkit-text-size-adjust: 100%;
+}

@@ -1,0 +1,31 @@
+/* ==========================================================================
+   FEATURES
+   ========================================================================== */
+
+#features {
+	@include section;
+	@include title;
+	padding-bottom: 50px;
+}
+
+.element {
+	margin: 30px auto;
+
+	.fa {
+		font-size: 4em;
+		color: $secondary-color;
+	}
+}
+
+/* ==========================================================================
+   RESPONSIVE
+   ========================================================================== */
+
+@media (max-width: $screen-sm-min) {
+	.element {
+		.fa {
+			font-size: 3em;
+			color: $secondary-color;
+		}
+	}
+}

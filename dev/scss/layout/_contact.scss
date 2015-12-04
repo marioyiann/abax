@@ -1,0 +1,48 @@
+/* ==========================================================================
+   CONTACT
+   ========================================================================== */
+
+#contact {
+	@include section;
+
+	.contact-info {
+		margin: 30px auto 15px;
+		
+		span {
+			font-size: 1.25em;
+		}	
+	}
+}
+
+.social-icons {
+	margin: 0;
+	padding: 0;
+
+	li {
+		list-style: none;
+		display: inline-block;
+		font-size: 1.8em;
+		line-height: 1.8em;
+		margin-left: 25px;
+
+		&:first-child {
+			margin-left: 0;
+		}
+	}
+}
+
+/* ==========================================================================
+   RESPONSIVE
+   ========================================================================== */
+
+@media (max-width: $screen-xs-min) {
+	#contact {
+
+		.contact-info {
+
+			span {
+				font-size: 1.1em;
+			}	
+		}
+	}
+}

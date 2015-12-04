@@ -1,0 +1,40 @@
+/* ==========================================================================
+   MIXINS
+   ========================================================================== */
+
+@mixin section {
+	margin: 20px auto 0;
+	padding-top: 30px;
+	text-align: center;
+}
+
+@mixin title {
+
+	h2 {
+		letter-spacing: 1px;
+		padding-top: 20px;
+		padding-bottom: 20px;
+
+		span {
+	  	border-bottom: 5px double;
+		}
+	}
+}
+
+@mixin align {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+@mixin tilde {
+	content: "\223C";
+	font-size: 1.6em;
+	margin-right: 5px;
+}
+
+@mixin grayscale {
+    filter: gray;
+    filter: grayscale(80%);
+}

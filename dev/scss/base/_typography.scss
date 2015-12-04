@@ -1,0 +1,55 @@
+/* ==========================================================================
+   TYPOGRAPHY
+   ========================================================================== */
+
+h1,h2,h3,h4,h5,h6 {
+  font-family: $title-font-stack;
+  color: $primary-color;
+	font-weight: 300;
+}
+
+h1 {
+	font-size: 1.9em;
+}
+
+h2 {
+	font-size: 1.8em;
+}
+
+h3 {
+	font-size: 1.6em;
+}
+
+p {
+	font-size: 1.25em;
+}
+
+a:link {
+  color: $primary-color;
+  transition: all ease .3s;
+}
+
+a:visited {
+  color: $primary-color;
+}
+
+a:hover,
+a:focus {
+  color: darken($secondary-color, 20%);
+  text-decoration: none;
+}
+
+a:active {
+  color: darken($secondary-color, 20%);
+  text-decoration: none;
+}
+
+/* ==========================================================================
+   RESPONSIVE TYPOGRAPHY
+   ========================================================================== */
+   
+@media (max-width: $screen-xs-min) { 
+  p {
+    font-size: 1.1em;
+  }
+}

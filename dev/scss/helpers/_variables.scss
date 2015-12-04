@@ -1,0 +1,23 @@
+/* ==========================================================================
+   VARIABLES
+   ========================================================================== */
+
+// Fonts
+$font-stack:'Muli', "Helvetica", "Arial", sans-serif;
+$title-font-stack: 'Oswald', sans-serif;
+
+// Links
+$link-hover-decoration: none !default;
+
+// Color Palette
+$dark-blue: rgb(47, 54, 76);
+$soft-amber: rgb(208, 201, 179);
+$pure-white: rgb(255, 255, 255);
+ 
+// Color Variables
+$primary-color: $dark-blue;
+$secondary-color: $soft-amber;
+$bg-color: $pure-white;
+
+// Custom Breakpoint 
+$screen-sm-custom: 767px;

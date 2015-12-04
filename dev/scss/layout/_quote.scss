@@ -1,0 +1,76 @@
+/* ==========================================================================
+   QUOTE
+   ========================================================================== */
+.no-padding {
+	padding-left: 0;
+	padding-right: 0;
+}
+
+.quote {
+	position: relative;
+	background-image: url('../img/quote.jpg');
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-position: 50% 50%;
+	background-size: cover;
+	height: 220px;
+   
+	&:after {
+		content: '';
+		background-color: $primary-color;
+		position: absolute;
+		top: 0;
+		left: 0;
+		right: 0;
+		bottom: 0;
+		opacity: .8;
+	}
+
+	blockquote {
+		@include align;
+		min-width: 220px;
+		padding: 0;
+	  margin: 0;
+		font-size: 1.4em;
+		text-align: center;
+		color: $bg-color;
+		font-style: italic;
+		z-index: 1;
+
+		footer {
+			margin-top: -20px;
+			
+			&:before {
+				@include tilde;
+			}
+		}
+	}
+}
+
+/* ==========================================================================
+   RESPONSIVE
+   ========================================================================== */
+
+@media (max-width: $screen-md-min) {
+	.quote {
+		height: 200px;
+
+		blockquote {
+			font-size: 1.2em;
+		}
+	}
+}
+
+@media (max-width: $screen-xs-min) {
+	.quote {
+		height: 180px;
+		
+		blockquote {
+			font-size: 1em;
+
+			footer {
+				font-size: .9em;
+			}
+		}
+	}
+}
