@@ -40,9 +40,9 @@ Hope you enjoy it and find it useful!
 Find me on: [Twitter](https://twitter.com/marioyiann)
 
 ##### Thanks and Respect to all external resources!
-Bootstrap: http://getbootstrap.com/  
-Fontawesome: http://fontawesome.io/  
-Animation: https://github.com/daneden/animate.css
-Wow: https://github.com/matthieua/WOW
-Lightbox2: https://github.com/lokesh/lightbox2/
-Images: https://unsplash.com/ugmonk
+- Bootstrap: http://getbootstrap.com/
+- Fontawesome: http://fontawesome.io/
+- Animation: https://github.com/daneden/animate.css
+- Wow: https://github.com/matthieua/WOW
+- Lightbox2: https://github.com/lokesh/lightbox2/
+- Images: https://unsplash.com/ugmonk
