@@ -1,7 +1,7 @@
 {
-  "name": "newapp",
+  "name": "abax",
   "version": "1.0.0",
-  "description": "Scaffold for responsive websites based on Bootstrap with SASS framework and automated workflow based on Gulp.",
+  "description": "Free HTML5 & CSS3 template for responsive websites based on Bootstrap with SASS framework and automated workflow based on Gulp.",
   "main": "gulpfile.js",
   "dependencies": {
     "gulp": "^3.9.0",
@@ -26,7 +26,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/marioyiann/newapp.git"
+    "url": "git+https://github.com/marioyiann/abax.git"
   },
   "keywords": [
     "Bootstrap",
@@ -34,7 +34,7 @@
     "Gulp"
   ],
   "bugs": {
-    "url": "https://github.com/marioyiann/newapp/issues"
+    "url": "https://github.com/marioyiann/abax/issues"
   },
-  "homepage": "https://github.com/marioyiann/newapp#readme"
+  "homepage": "https://github.com/marioyiann/abax#readme"
 }
